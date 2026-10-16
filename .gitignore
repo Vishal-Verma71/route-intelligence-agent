@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# Raw Kaggle download (96 MB) - the slim parquet derived from it is committed
+data/raw/
+# Runtime state, rebuilt on startup
+data/route_intel.db
+# Trained model (retrained automatically on first use)
+models/*.joblib
+
+# Local tooling
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/AGENTS.md
+frontend/CLAUDE.md
